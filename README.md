@@ -1,3 +1,47 @@
-Based on your repository structure, I have updated the README.md to include a dedicated Screenshots section. I used the direct paths for the images currently in your Images folder.HR Analytics Dashboard📊 Project OverviewThis project features an interactive HR Analytics Dashboard designed to help organizations understand employee attrition patterns. By analyzing various demographic and professional factors, the dashboard provides actionable insights to improve employee retention and workplace satisfaction.🖼️ ScreenshotsHere is a visual overview of the dashboard's primary views:Overview DashboardDemographic AnalysisSatisfaction Heatmap🚀 Key FeaturesKPI Tracking: Real-time visibility into Total Employee Count, Attrition Count, Attrition Rate, and Average Age.Demographic Analysis: Breakdown of employee distribution and attrition by Age Group and Gender.Education & Department Insights: Visualizations showing how attrition varies across different education fields and departments (R&D, Sales, HR).Job Satisfaction Map: A detailed matrix correlating Job Roles with satisfaction scores.Interactive Filtering: A dynamic "Education" slicer allows users to filter the entire dashboard by degree level.📈 Dashboard HighlightsThe dashboard answers critical business questions, such as:Who is leaving? (Attrition Rate by Gender and Age)Where is the turnover highest? (Department-wise and Education-wise Attrition)Are employees happy? (Job Satisfaction Rating by Role)🛠️ Tools UsedData Visualization: Power BIData Source: HR Dataset (CSV/Excel)Theme: Professional Dark Mode UI📂 Project StructurePlaintext├── Images/             # Dashboard screenshots
-├── HR Analytics Dashboard.mp4 # Video demonstration
-├── README.md           # Project documentation
+HR Analytics Dashboard Project
+📌 Project Overview
+Ye project ek Comprehensive HR Analytics Dashboard hai jo organization mein Employee Attrition (Turnover) ko analyze karne ke liye banaya gaya hai. Iska main objective ye pata lagana hai ki log company kyun chhod rahe hain aur kin areas mein improvement ki zaroorat hai taaki retention rate badhaya ja sake.
+
+Is dashboard ke zariye HR departments data-driven decisions le sakte hain, jaise ki specific age groups ya departments ko target karna jahan attrition rate sabse zyada hai.
+
+🖼️ Dashboard Preview & Screenshots
+Dashboard ke alag-alag views aur filters niche diye gaye hain:
+
+1. Main KPI & Attrition Overview
+Yahan hum Total Employees, Attrition Count, aur Attrition Rate jaise main KPIs dekh sakte hain.
+
+2. Demographic Analysis (Age & Education)
+Ye view dikhata hai ki attrition ka education background aur age group se kya relation hai.
+
+3. Job Satisfaction & Roles
+Heatmap ke zariye humne identify kiya hai ki kaunse job roles mein employees sabse zyada unhappy hain.
+
+🚀 Key Insights & Functionality
+Dashboard mein ye saari cheezein analyze ki gayi hain:
+
+Attrition by Department: R&D department mein sabse zyada attrition (~56%) dekha gaya hai.
+
+Education Field: Medical aur Life Sciences background wale employees mein attrition rate kaafi high hai.
+
+Age-Specific Trends: 26-35 saal ki age bracket wale employees company sabse zyada chhod rahe hain.
+
+Gender Analysis: Male aur Female attrition rate ko alag-alag age groups par track kiya gaya hai.
+
+Job Satisfaction: Matrix visualization se pata chalta hai ki "Sales Representative" aur "Laboratory Technician" roles mein satisfaction score kam hai.
+
+🛠️ Tech Stack & Tools
+Tool: Power BI / Tableau
+
+Data Source: HR Employee Dataset (CSV)
+
+Techniques: Data Cleaning (Power Query), DAX Measures, Data Modeling, UI/UX Design.
+
+📂 Repository Structure
+Plaintext
+├── Images/
+│   ├── Screenshot 2026-04-03 003300.png
+│   ├── Screenshot 2026-04-03 003320.png
+│   └── Screenshot 2026-04-03 003802.png
+├── HR Analytics Dashboard.mp4    # Project Demo Video
+├── README.md                     # Documentation
+└── [Project_File].pbix           # Power BI Source File
