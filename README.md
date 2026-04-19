@@ -30,7 +30,7 @@ Dashboard mein ye saari cheezein analyze ki gayi hain:
 ---
 
 ## 🛠️ Tech Stack & Tools
-* **Tool:** Power BI
+* **Tool:**Tableau
 * **Data Source:** HR Employee Dataset (CSV)
 * **Techniques:** Data Cleaning (Power Query), DAX Measures, Data Modeling.
 
